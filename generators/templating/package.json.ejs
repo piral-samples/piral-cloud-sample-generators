@@ -1,0 +1,27 @@
+{
+    "name": "<%= name %>",
+    "version": "<%= version %>",
+    "description": "",
+    "keywords": [],
+    "scripts": {
+      "start": "pilet debug",
+      "build": "pilet build",
+      "upgrade": "pilet upgrade"
+    },
+    "source": "src/index.tsx",
+    "main": "dist/index.js",
+    "files": ["dist"],
+    "dependencies": {},
+    "devDependencies": {
+      "@types/node": "latest",
+      "piral-cli": "latest",
+      "piral-cli-esbuild": "latest",
+      "tslib": "latest",
+      "typescript": "latest",
+      "<%= appShell %>": "latest"
+    },
+    "importmap": {
+      imports: {},
+      inherit: ["<%= appShell %>"],
+    }
+  }

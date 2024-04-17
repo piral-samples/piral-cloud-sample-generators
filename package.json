@@ -1,0 +1,24 @@
+{
+  "name": "piral-cloud-sample-generators",
+  "version": "1.0.0",
+  "description": "A set of sample generators for the Piral Cloud Feed Service",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "engines": {
+    "node": ">=20.0"
+  },
+  "keywords": [],
+  "author": "smapiot",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3",
+    "tar-stream": "^3"
+  },
+  "devDependencies": {
+    "@types/ejs": "^3",
+    "@types/node": "^20",
+    "@types/tar-stream": "^3",
+    "esbuild": "^0.20"
+  }
+}
